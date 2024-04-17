@@ -4,7 +4,7 @@ type Props = {
   badgeBackgroundColor?: string;
 };
 
-const defaultTextColor = '#303235';
+const defaultTextColor = '#929292';
 
 export const Badge = (props: Props) => {
   return (
@@ -15,7 +15,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Puedo cometer errores. Considera verificar la información importante.
+      Considera verificar la información; puedo equivocarme.
     </span>
   );
 };
